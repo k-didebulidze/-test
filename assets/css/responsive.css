@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 15px;
+    }
+    .article-block :last-child{
+    display: none;
+} 
+    .part-article {
+    width: calc((100% - 70px) / 3);
+    height: calc((100vw - 7px) / 3);
+}
+
+@media screen and (max-width: 1150px) {
+    .logo {
+        padding-right: 20px;
+    }
+    nav ul li {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #header nav {
+        display: none;
+    }
+    #video-section {
+        display: none;
+    }
+    .burger-icon {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+	display: none;
+}
+    #banner h1 {
+    font-size: 20px;
+}
+    
+}
